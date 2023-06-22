@@ -51,7 +51,10 @@ telefono:number;
 @Column('numeric',{
     name:'curso',
     nullable:false,
-    comment:'curso al que pertenese'
+    comment:'curso al que pertenece'
 })
 curso:CursoEntity;
 }
+
+//ADRIAN MUÑOZ
+//STEVEN ANDRADE

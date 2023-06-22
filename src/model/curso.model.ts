@@ -7,7 +7,7 @@ export class CursoEntity {
   id: string;
 
   @CreateDateColumn({
-    name: 'create_at', //trabajamos con guion bajo
+    name: 'create_at', 
     type: 'timestamp',
     default: () => 'CURRENT_TIMESTAMP',
   })
@@ -37,3 +37,6 @@ export class CursoEntity {
   })
   numeroParticipantes:number;
 }
+
+//ADRIAN MUÑOZ
+//STEVEN ANDRADE
